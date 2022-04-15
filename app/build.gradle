@@ -62,4 +62,7 @@ dependencies {
 
     // Koin Testing
     testImplementation "io.insert-koin:koin-test:3.1.4"
+
+    // Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
 }
