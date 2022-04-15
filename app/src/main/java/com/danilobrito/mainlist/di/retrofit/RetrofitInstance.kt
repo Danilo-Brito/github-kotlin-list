@@ -1,4 +1,4 @@
-package com.danilobrito.mainlist.di
+package com.danilobrito.mainlist.di.retrofit
 
 import com.danilobrito.mainlist.data.api.GithubAPI
 import com.danilobrito.mainlist.util.ApiConstants
