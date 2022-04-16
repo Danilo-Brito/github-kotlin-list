@@ -7,5 +7,8 @@ class ApiConstants {
 
         /*Endpoints*/
         const val SEARCH_ENDPOINT = "search/repositories"
+
+
+        const val START_PAGE_INDEX = 1
     }
 }

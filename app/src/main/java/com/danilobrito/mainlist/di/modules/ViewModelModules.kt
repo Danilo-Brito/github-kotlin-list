@@ -1,6 +1,6 @@
 package com.danilobrito.mainlist.di.modules
 
-import com.danilobrito.mainlist.ui.GithubListViewModel
+import com.danilobrito.mainlist.ui.mainlist.GithubListViewModel
 import org.koin.dsl.module
 
 class ViewModelModules {

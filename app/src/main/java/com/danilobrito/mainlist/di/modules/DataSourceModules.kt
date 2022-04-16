@@ -1,17 +1,17 @@
 package com.danilobrito.mainlist.di.modules
 
+import com.danilobrito.mainlist.data.paging.GithubDataSource
 import com.danilobrito.mainlist.data.repository.GithubRepository
-import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.Dispatchers
 import org.koin.dsl.module
 
-class RepositoryModules {
+class DataSourceModules {
 
     fun provide() = listOf(
-        repositoryByStar
+        datasource
     )
 
-    private val repositoryByStar = module {
-        single { GithubRepository(Dispatchers) }
+    private val datasource = module {
+        single { GithubDataSource(get(), get(), Dispatchers) }
     }
 }
