@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MainList"
         android:name="AppApplication">
         <activity
-            android:name=".ui.GithubListActivity"
+            android:name=".ui.mainlist.GithubListActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
