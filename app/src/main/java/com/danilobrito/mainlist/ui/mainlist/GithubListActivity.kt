@@ -2,20 +2,14 @@ package com.danilobrito.mainlist.ui.mainlist
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
-import android.view.LayoutInflater
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.danilobrito.mainlist.R
 import com.danilobrito.mainlist.databinding.ActivityGithubListBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import com.danilobrito.mainlist.ui.adapter.GithubAdapter
 import com.danilobrito.mainlist.ui.adapter.LoadingAdapter
-import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.observeOn
 import kotlinx.coroutines.launch
 
 class GithubListActivity : AppCompatActivity() {
